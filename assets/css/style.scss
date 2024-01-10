@@ -2,7 +2,7 @@
 # Required frontmatter to ensure Jekyll processes this page
 ---
 
-@import "vendor/tailwind";
+@import "tailwind";
 @import "garden";
 {%- if site.search_enabled -%}
 @import "search";
