@@ -1,0 +1,64 @@
+
+<style>
+.mainContainer {
+  height:100vh;
+  display: grid;
+  grid-template-rows:10% 80% 10%;
+  grid-template-columns: 100%;
+}
+
+.mainHeader { 
+  grid-row-start:1; 
+  grid-row-end:2; 
+} 
+.mainContent { 
+  grid-row-start:2; 
+  grid-row-end:3; 
+}
+.mainFooter { 
+  grid-row-start:3; 
+  grid-row-end:4; 
+}
+
+</style>
+<link rel="stylesheet" href="{{ '/assets/sapl_reference_css/custom-styles.css' | relative_url }}">
+<div class="mainContainer">
+  <div class="mainHeader">
+    
+
+        
+        {% include header.html %}
+  </div>
+  <div class="mainContent">
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/rouge.css' | relative_url }}"
+    />
+        <script src="{{ '/assets/js/accordian.js' | relative_url }}"></script>
+        <script src="{{ '/assets/js/heading_links.js' | relative_url }}"></script>
+        <div class="chrome:content">
+          <div class="chrome:main">
+            {% if site.auto_page_title and page.title %}
+            {% if page.auto_title != false %}
+            <h1 id="{{ page.title | replace: " ", "-" | downcase | url_encode }}">{{ page.title }}</h1>
+            {% endif %}
+            {% endif %}
+            {{ content }}
+          </div>
+          {% if site.sidebar %} {% include sidebar.html %} {% endif %}
+        </div>
+  </div>
+
+  <div class="mainFooter">
+  <link rel="stylesheet" href="{{ '/assets/sapl_reference_css/custom-styles.css' | relative_url }}">
+
+      
+      {% include footer.html %}
+
+  </div>
+
+</div>

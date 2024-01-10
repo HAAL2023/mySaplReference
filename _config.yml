@@ -18,21 +18,42 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SAPL-Reference
-email: your-email@example.com
+title: SAPL - The Streaming Attribute Policy Language and Engine
+email: dominic_at_heutelbeck.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "reference" # the subpath of your site, e.g. /blog
+  SAPL is a powerful policy language and engine to implement Attribute-based access control (ABAC).
+  It comes with developement tools for testing, authorization servers, authoring tools.
+  Framework integrations are available for Spring, Axon, and Vaadin to provide flexible policy enforcement points (PEPs) in your application.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+github_username:  heutelbeck
 
 # Build settings
 theme: minima
+minima:
+  skin: dark
 plugins:
   - jekyll-feed
+
+include: ['_pages']
+
+sidebar:
+  - index
+  - label: SAPL Reference
+    children:
+      - Introduction
+      - Authorization-Subscriptions
+      - Structure-of-a-SAPL-Policy
+      - Authorization-Decisions
+      - Accessing-Attributes
+      - Getting-Started
+  - label: Reference Architecture
+    children:
+      - Reference-Architecture
+      - PEP
+      - PDP
+      - PAP
 
 # Exclude from processing.
 # The following items will not be processed, by default.
