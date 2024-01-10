@@ -27,6 +27,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+# gem install bundler:2.5.4
+# bundle lock --add-platform x86_64-linux
   # Build job
   build:
     runs-on: ubuntu-latest
