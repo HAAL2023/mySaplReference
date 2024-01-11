@@ -12,4 +12,4 @@ The architecture of the SAPL policy engine is follows the terminology defined by
 
 
 
-![SAPL_Architecture.svg](/assets/sapl_reference_images/SAPL_Architecture.svg)
+![SAPL_Architecture.svg](/sapl-reference/assets/sapl_reference_images/SAPL_Architecture.svg)
