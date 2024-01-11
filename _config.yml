@@ -35,25 +35,8 @@ minima:
   skin: dark
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
-include: ['_pages']
-
-sidebar:
-  - index
-  - label: SAPL Reference
-    children:
-      - Introduction
-      - Authorization-Subscriptions
-      - Structure-of-a-SAPL-Policy
-      - Authorization-Decisions
-      - Accessing-Attributes
-      - Getting-Started
-  - label: Reference Architecture
-    children:
-      - Reference-Architecture
-      - PEP
-      - PDP
-      - PAP
 
 # Exclude from processing.
 # The following items will not be processed, by default.
