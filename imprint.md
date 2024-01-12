@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Imprint
-permalink: /mySaplReference/imprint
+permalink: /imprint
 exclude: true
 ---
 
