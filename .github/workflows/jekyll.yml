@@ -60,7 +60,7 @@ jobs:
           bundle install
           bundle exec jekyll build --config "_config.yml"
           #mv ./_site/assets ./_site/docs/3.0.0-SNAPSHOT-MD/
-          #cp -r ./_site/docs/3.0.0-SNAPSHOT-MD/* ../../_site/docs/3.0.0-SNAPSHOT-MD/
+          cp -r ./_site/docs/3.0.0-SNAPSHOT-MD/* ../../_site/docs/3.0.0-SNAPSHOT-MD/
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
