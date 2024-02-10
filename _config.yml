@@ -49,7 +49,7 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-    - .md-files/
+  - md-files/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
