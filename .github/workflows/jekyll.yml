@@ -41,30 +41,15 @@ jobs:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 3 # Increment this number if you need to re-download cached gems
-      - name: Create symlink
-        run: |
-            latest_doc=$(ls -1d docs/*/ | sort | tail -n 1)
-            ln -s $(basename $latest_doc) docs/latest
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         #run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        run: |
-          gem install bundler
-          bundle install
-          bundle exec jekyll build --config "_config.yml"
+        run: bundle exec jekyll build --config "_config.yml"
         env:
           JEKYLL_ENV: production
-      - name: Build Reference
-        run: |
-          cd ./md-files/saplReference300SNAPSHOT
-          gem install bundler
-          bundle install
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-          mv ./_site/assets ./_site/docs/3.0.0-SNAPSHOT-MD/
-          cp -r ./_site/docs/3.0.0-SNAPSHOT-MD/* ../../_site/docs/3.0.0-SNAPSHOT-MD/
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
