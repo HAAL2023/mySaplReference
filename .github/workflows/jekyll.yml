@@ -52,6 +52,9 @@ jobs:
           JEKYLL_ENV: production
       - name: Build Reference
         run: |
+          if [ ! -d "docs/3.0.0-SNAPSHOT-MD" ]; then
+            mkdir -p docs/3.0.0-SNAPSHOT-MD/
+          fi
           cd ./md-files/saplReference300SNAPSHOT
           #gem install bundler
           bundle install
