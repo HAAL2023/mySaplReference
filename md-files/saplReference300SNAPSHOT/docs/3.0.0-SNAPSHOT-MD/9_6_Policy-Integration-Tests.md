@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Policy-Integration-Tests
-permalink: /reference/Policy-Integration-Tests/
+#permalink: /reference/Policy-Integration-Tests/
 parent: Testing SAPL policies
 grand_parent: SAPL Reference
 nav_order: 6

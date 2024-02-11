@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Obligation / Advice
-permalink: /reference/Obligation-Advice/
+#permalink: /reference/Obligation-Advice/
 parent: Authorization Subscription Evaluation
 grand_parent: SAPL Reference
 nav_order: 7

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Policy Set
-permalink: /reference/Policy-Set/
+#permalink: /reference/Policy-Set/
 parent: Authorization Subscription Evaluation
 grand_parent: SAPL Reference
 nav_order: 3

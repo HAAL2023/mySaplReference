@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Attribute Finders
-#permalink: /reference/Attribute-Finders/
+##permalink: /reference/Attribute-Finders/
 has_children: true
 parent: SAPL Reference
 nav_order: 8

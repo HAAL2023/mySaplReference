@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Examples
-permalink: /reference/Examples/
+#permalink: /reference/Examples/
 parent: Testing SAPL policies
 grand_parent: SAPL Reference
 nav_order: 8

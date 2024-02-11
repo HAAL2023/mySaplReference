@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Combining Algorithm
-permalink: /reference/Combining-Algorithm/
+#permalink: /reference/Combining-Algorithm/
 parent: Authorization Subscription Evaluation
 grand_parent: SAPL Reference
 nav_order: 5

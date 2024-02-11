@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Custom Function Libraries
-permalink: /reference/Custom-Function-Libraries/
+#permalink: /reference/Custom-Function-Libraries/
 parent: Functions
 grand_parent: SAPL Reference
 nav_order: 2
