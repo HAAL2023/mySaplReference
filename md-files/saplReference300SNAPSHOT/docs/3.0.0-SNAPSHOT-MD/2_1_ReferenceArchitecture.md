@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Reference Architecture
+#permalink: Reference-Architecture
 has_children: true
 parent: SAPL Reference
 nav_order: 2

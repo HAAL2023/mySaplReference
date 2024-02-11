@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Authorization Decisions
-permalink: /reference/Authorization-Decisions/
+#permalink: /reference/Authorization-Decisions/
 parent: Introduction
 grand_parent: SAPL Reference
 nav_order: 4

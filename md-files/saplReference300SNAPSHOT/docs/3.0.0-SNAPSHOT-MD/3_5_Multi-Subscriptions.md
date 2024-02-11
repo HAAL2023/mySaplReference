@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Multi Subscriptions
-permalink: /reference/Multi-Subscriptions/
+#permalink: /reference/Multi-Subscriptions/
 parent: Publish/Subscribe Protocol
 grand_parent: SAPL Reference
 nav_order: 5

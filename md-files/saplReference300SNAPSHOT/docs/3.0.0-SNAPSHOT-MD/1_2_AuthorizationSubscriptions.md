@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Authorization Subscriptions
-permalink: /reference/Authorization-Subscriptions/
+#permalink: /reference/Authorization-Subscriptions/
 parent: Introduction
 grand_parent: SAPL Reference
 nav_order: 2

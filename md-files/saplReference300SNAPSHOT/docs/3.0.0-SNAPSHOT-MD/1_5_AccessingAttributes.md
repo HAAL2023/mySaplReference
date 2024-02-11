@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Accessing Attributes
-permalink: /reference/Accessing-Attributes/
+#permalink: /reference/Accessing-Attributes/
 parent: Introduction
 grand_parent: SAPL Reference
 nav_order: 5

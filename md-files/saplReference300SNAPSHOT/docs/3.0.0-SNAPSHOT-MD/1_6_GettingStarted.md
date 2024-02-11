@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting Started
-permalink: /reference/Getting-Started/
+#permalink: /reference/Getting-Started/
 parent: Introduction
 grand_parent: SAPL Reference
 nav_order: 6
